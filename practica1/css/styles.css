@@ -1,12 +1,85 @@
-*{
+body {
     margin: 0;
-    padding: 0;
-}
-body{
-    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0; /* Light gray background */
 }
 
-#header{
-    height: 70px;
-    background-color: rgb(26, 26, 94);
+.container {
+    width: 300px; /* Adjust as needed */
+    background-color: #e0e0e0; /* Lighter gray for the main body */
+    border: 1px solid #ccc; /* Optional border */
+}
+
+.header {
+    background-color: #f8f8f8; /* Very light gray for the top bar */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.red-square {
+    width: 20px;
+    height: 20px;
+    background-color: #a52a2a; /* Dark red */
+}
+
+.windows-row {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    background-color: #d3d3d3; /* Medium gray for the window row */
+}
+
+.window {
+    width: 50px;
+    height: 50px;
+    background-color: #f5f5f5; /* Off-white for windows */
+    border: 1px solid #bbb; /* Subtle border */
+}
+
+.body {
+    background-color: #a52a2a; /* Dark red for the body */
+    padding: 20px 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.large-window {
+    width: 90px;
+    height: 60px;
+    background-color: #f5f5f5; /* Off-white for large windows */
+    border: 1px solid #bbb;
+}
+
+.footer {
+    background-color: #808080; /* Gray for the footer */
+    padding: 15px 0;
+    display: flex;
+    justify-content: flex-end; /* Align the small window to the right */
+}
+
+.small-window {
+    width: 40px;
+    height: 40px;
+    background-color: #f5f5f5; /* Off-white for the small window */
+    border: 1px solid #bbb;
+    margin-right: 15px; /* Space from the right edge */
+}
+
+.base {
+    background-color: #603030; /* Darker red for the base */
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-square {
+    width: 40px;
+    height: 40px;
+    background-color: #f5f5f5; /* Off-white for the bottom square */
+    border: 1px solid #bbb;
 }
